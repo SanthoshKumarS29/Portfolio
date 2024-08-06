@@ -1,0 +1,46 @@
+{
+    "proj": [
+      {
+        "id": 1,
+        "imag": "projectimg/First.png",
+        "des": "I will start learning HTML and CSS, and then I will create this portfolio.",
+        "link": "https://santhoshkumars29.github.io/my-portfolio/",
+        "type": "Portfolio"
+      },
+      {
+        "id": 2,
+        "imag": "projectimg/Second.png",
+        "des": "Next, I learn javascript add some specification in My portfolio",
+        "link": "https://santhoshkumars29.github.io/UpgradeMyPortfolio/",
+        "type": "Portfolio"
+      },
+      {
+        "id": 3,
+        "imag": "projectimg/Third.png",
+        "des": "Next, I create a project and its based on my Video Editing Instgram Profile",
+        "link": "https://santhoshkumars29.github.io/VEPortfolio",
+        "type": "Portfolio"
+      },
+      {
+        "id": 4,
+        "imag": "projectimg/six.png",
+        "des": "I create large site using html css and js its is big project",
+        "link": "https://santhoshkumars29.github.io/Hotel-BookingManagement/",
+        "type": "Website"
+      },
+      {
+        "id": 5,
+        "imag": "projectimg/Fiveth.png",
+        "des": "I will start learn React that time I will create this webiste ",
+        "link": "https://cartprj.netlify.app",
+        "type": "ReactWebsite"
+      },
+      {
+        "id": 6,
+        "imag": "projectimg/Fourth.png",
+        "des": "And I will Create Another Static Website using React ",
+        "link": "https://reactsmallwebsite.netlify.app",
+        "type": "ReactWebsite"
+      }
+    ]
+}
