@@ -29,10 +29,10 @@ const About = () => {
     }
     return (
         <div id="About">
-            <div className='md:mt-[96px] max-w-[1240px] mx-auto text-black py-16 px-4'>
-                <div className='grid md:grid-cols-2 items-start'>
-                    <motion.img initial='hidden' animate={imgControls} variants={imgVariants} src={about} alt="About Image" className='lg:w-[300px] mx-auto py-6 w-[300px] rounded-[50%] mr-0 md:mr-64' />
-                    <motion.div initial='hidder' animate={textControls} variants={textVariants} className='flex flex-col gap-4 justify-center text-white mr-0 md:mr-20 w-full'>
+            <div className='max-w-[1240px] text-black py-16 px-4'>
+                <div className='grid md:grid-cols-2 items-center justify-between'>
+                    <motion.img initial='hidden' animate={imgControls} variants={imgVariants} src={about} alt="About Image" className='lg:w-[300px] mx-auto py-6 w-[300px] rounded-[50%] ' />
+                    <motion.div initial='hidder' animate={textControls} variants={textVariants} className='flex flex-col gap-4 justify-center text-white w-full'>
                         <p className='text-[#7a50eb] font-bold text-lg md:text-xl'>About Me</p>
                         <h1 className='md:text-4xl sm:text-3xl text-2xl font-bold py-2'>Lets Introduce Myself...</h1>
                         <p className='md:text-base'>Hi, I'm Santhosh, a passionate developer skilled in ReactJS, Django, Python, and Tailwind CSS. I enjoy creating elegant solutions for complex problems, from intuitive user interfaces to robust backend systems. Always eager to learn and grow, I thrive in collaborative environments and continuously seek new challenges.</p>
