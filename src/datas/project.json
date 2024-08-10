@@ -2,45 +2,44 @@
     "proj": [
       {
         "id": 1,
-        "imag": "projectimg/First.png",
-        "des": "I will start learning HTML and CSS, and then I will create this portfolio.",
-        "link": "https://santhoshkumars29.github.io/my-portfolio/",
-        "type": "Portfolio"
+        "name":"Santhosh",
+        "img": "projectimg/Hotel.png",
+        "title":"Hotel Booking Management",
+        "Head":"Technologies Used:",
+        "des":"Html Css Javascript",
+        "link":"https://santhoshkumars29.github.io/Hotel-BookingManagement/"
       },
       {
         "id": 2,
-        "imag": "projectimg/Second.png",
-        "des": "Next, I learn javascript add some specification in My portfolio",
-        "link": "https://santhoshkumars29.github.io/UpgradeMyPortfolio/",
-        "type": "Portfolio"
+        "img": "projectimg/Creative.png",
+        "title":"Creative Portfolio",
+        "Head":"Technologies Used:",
+        "des":"ReactJs Tailwind Css",
+        "link":" https://santhoshkumars29.github.io/Creative_Portfolio/"
       },
       {
         "id": 3,
-        "imag": "projectimg/Third.png",
-        "des": "Next, I create a project and its based on my Video Editing Instgram Profile",
-        "link": "https://santhoshkumars29.github.io/VEPortfolio",
-        "type": "Portfolio"
+        "img": "projectimg/Website.png",
+        "title":"Static Website",
+        "Head":"Technologies Used:",
+        "des":"ReactJs Tailwind Css",
+        "link":"https://reactsmallwebsite.netlify.app"
       },
       {
         "id": 4,
-        "imag": "projectimg/six.png",
-        "des": "I create large site using html css and js its is big project",
-        "link": "https://santhoshkumars29.github.io/Hotel-BookingManagement/",
-        "type": "Website"
+        "img": "projectimg/Food.png",
+        "title":"UseContext Project",
+        "Head":"Technologies Used:",
+        "des":"ReactJs Tailwind Css",
+        "link":"https://cartprj.netlify.app"
       },
       {
         "id": 5,
-        "imag": "projectimg/Fiveth.png",
-        "des": "I will start learn React that time I will create this webiste ",
-        "link": "https://cartprj.netlify.app",
-        "type": "ReactWebsite"
-      },
-      {
-        "id": 6,
-        "imag": "projectimg/Fourth.png",
-        "des": "And I will Create Another Static Website using React ",
-        "link": "https://reactsmallwebsite.netlify.app",
-        "type": "ReactWebsite"
+        "img": "projectimg/Weather.png",
+        "title":"Axios Project",
+        "Head":"Technologies Used:",
+        "des":"ReactJs Tailwind Css",
+        "link":" https://santhoshkumars29.github.io/WeatherApp/"
       }
     ]
 }

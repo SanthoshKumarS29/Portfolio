@@ -6,20 +6,3 @@
     background-color: black;
     font-family: 'Roboto', sans-serif;
   }
-  .project-description{
-    position: absolute; 
-    left:0; 
-    right:0; 
-    bottom:0; 
-    top: 0px;
-    text-align: center;
-    color: white;
-    font-weight: bold;
-    padding-top: 50px;
-  }
-  .button{
-    padding: 5px;
-    font-weight: bold;
-    background-color: #7a50eb;
-    color: white;
-  }

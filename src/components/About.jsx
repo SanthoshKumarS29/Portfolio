@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 import about from '../assets/About.jpeg';
-import csv from '../assets/Resume.pdf'
+import csv from '../assets/SK Resume.pdf'
 import {motion,useAnimation} from 'framer-motion'
 
 const About = () => {
@@ -29,7 +29,7 @@ const About = () => {
     }
     return (
         <div id="About">
-            <div className='max-w-[1240px] text-black py-16 px-4'>
+            <div className='max-w-[1240px] mx-auto text-black py-16 px-4'>
                 <div className='grid md:grid-cols-2 items-center justify-between'>
                     <motion.img initial='hidden' animate={imgControls} variants={imgVariants} src={about} alt="About Image" className='lg:w-[300px] mx-auto py-6 w-[300px] rounded-[50%] ' />
                     <motion.div initial='hidder' animate={textControls} variants={textVariants} className='flex flex-col gap-4 justify-center text-white w-full'>

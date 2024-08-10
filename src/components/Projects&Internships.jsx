@@ -1,14 +1,9 @@
 import React, { useState } from 'react';
 import data from '../datas/project.json';
 
-const Work = () => {
-    const [selectedType, setSelectedType] = useState('All');
-    const [visibleCount, setVisibleCount] = useState(3); // Default to show 3 projects
 
-    const handleTypeClick = (type) => {
-        setSelectedType(type);
-        setVisibleCount(3); // Reset visibleCount when type changes
-    };
+const Work = () => {
+    const [visibleCount, setVisibleCount] = useState(3); // Default to show 3 projects
 
     const handleShowMore = () => {
         setVisibleCount((prevCount) => prevCount + 3); // Show 3 more projects
@@ -18,38 +13,38 @@ const Work = () => {
         setVisibleCount((prevCount) => (prevCount > 3 ? prevCount - 3 : 3)); // Show 3 less projects or reset to 3
     };
 
-    const filteredProjects = selectedType === 'All' ? data.proj : data.proj.filter(project => project.type === selectedType);
-    const visibleProjects = filteredProjects.slice(0, visibleCount);
+    const visibleProjects = data.proj.slice(0, visibleCount);
 
     return (
         <div id='Project'>
-            <div className='max-w-[1240px] mx-auto py-16 px-4'>
+            <div className='max-w-[1240px] mx-auto py-16 px-4 text-white'>
                 <div className='flex flex-col'>
-                    <h1 className='font-bold text-4xl mb-2 text-[#7a50eb]'>My Projects</h1>
+                    <h1 className='font-bold text-2xl mb-2 text-[#7a50eb]'>Projects</h1>
                 </div>
-                <div>
-                    <ul className='flex mt-10 gap-3 cursor-pointer text-white'>
-                        <li className={`font-bold md:text-xl ${selectedType === 'All' ? 'text-[#7a50eb]' : ''}`} onClick={() => handleTypeClick('All')}>All</li>
-                        <li className={`font-bold md:text-xl hover:text-[#7a50eb] ease-in duration-300 ${selectedType === 'Website' ? 'text-[#7a50eb]' : ''}`} onClick={() => handleTypeClick('Website')}>Websites</li>
-                        <li className={`font-bold md:text-xl hover:text-[#7a50eb] ease-in duration-300 ${selectedType === 'Portfolio' ? 'text-[#7a50eb]' : ''}`} onClick={() => handleTypeClick('Portfolio')}>Portfolio</li>
-                        <li className={`font-bold md:text-xl hover:text-[#7a50eb] ease-in duration-300 ${selectedType === 'ReactWebsite' ? 'text-[#7a50eb]' : ''}`} onClick={() => handleTypeClick('ReactWebsite')}>React Website</li>
-                    </ul>
-                </div>
-                <div className='grid grid-cols-1 md:grid-cols-3 justify-center items-center mt-16 md:px-10 gap-5'>
+                <div className='grid grid-cols-1 md:grid-cols-3 px-2 md:px-0 mt-16 gap-5'>
                     {visibleProjects.map((project) => (
-                        <div key={project.id} className='relative animate-[up_1s_ease-in-out_1]'>
-                            <img className='h-[200px] w-[300px] p-2 bg-[#7a50eb] object-cover border-2 border-black rounded-md' src={project.imag} />
-                            <div className='w-[300px] project-description opacity-0 hover:opacity-100 duration-300 bg-black border-2 border-[#7a50eb]'>
-                                <p className='text-center px-5 py-4'>{project.des}</p>
-                                <div className='flex justify-center'>
-                                    <a className='button' target='_blank' href={project.link}>View Project</a>
+                        <div key={project.id} className='max-w-md flex justify-center border-2 border-[#7a50eb] rounded-xl'>
+                            <div className='py-7 px-3 md:px-6'>
+                                <div className='flex justify-start items-center pb-5 gap-2'>
+                                    <p className='border-2 border-[#7a50eb] p-2 text-sm rounded-xl'></p>
+                                    <p className='border-2 border-[#7a50eb] p-2 text-sm rounded-xl'></p>
+                                </div>
+                                    <img className='h-[200px] object-cover border-2 border-black rounded-md' src={project.img} />
+                                    <h1 className='font-bold pt-6 text-base md:text-xl'>{project.title}</h1>
+                                <div className='flex flex-col justify-between'>
+                                    <div className='pt-4'>
+                                        <p className='uppercase font-mono text-[12px] text-[#7a50eb]'>{project.des}</p>
+                                    </div>
+                                    <div className='flex pt-5 gap-2'>
+                                        <p className='border-2 border-[#7a50eb] px-4 py-2 text-[13px] font-medium rounded-md hover:bg-[#7a50eb] duration-200'><a href={project.link}>Visit Now</a></p>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     ))}
                 </div>
                 <div className='flex justify-start mt-10'>
-                    {filteredProjects.length > visibleCount && (
+                    {visibleCount < data.proj.length && (
                         <button
                             onClick={handleShowMore}
                             className='border-2 border-[#7a50eb] w-[200px] rounded-md font-bold py-3 text-[#7a50eb] hover:bg-[#7a50eb] hover:text-white ease-in-out duration-500'
