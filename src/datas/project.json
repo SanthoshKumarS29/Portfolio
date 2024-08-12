@@ -11,11 +11,11 @@
       },
       {
         "id": 2,
-        "img": "projectimg/Creative.png",
+        "img": "projectimg/My First Portfolio.png",
         "title":"Creative Portfolio",
         "Head":"Technologies Used:",
-        "des":"ReactJs Tailwind Css",
-        "link":" https://santhoshkumars29.github.io/Creative_Portfolio/"
+        "des":"ReactJs Tailwind Css React-Router-Dom",
+        "link":"https://santhoshkumars29.github.io/my-portfolio-/"
       },
       {
         "id": 3,

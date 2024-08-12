@@ -6,7 +6,7 @@ const Navbar = () => {
 
   return (
     <div>
-        <div className='flex justify-between items-center h-24 border-b-2 border-[#7a50eb] max-w-[1240px] mx-auto px-4 text-white bg-black'>
+        <div className='flex justify-between items-center h-24 max-w-[1240px] mx-auto px-4 text-white bg-black'>
             <h1 className='w-full text-3xl font-bold text-[#7a50eb] font-customFont'>Santhosh.</h1>
             <ul className='hidden md:flex'>
                 <li className='p-4 font-medium cursor-pointer hover:text-[#7a50eb] duration-300'><a href="#hero">Home</a></li>

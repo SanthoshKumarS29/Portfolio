@@ -45,20 +45,10 @@ const Work = () => {
                 </div>
                 <div className='flex justify-start mt-10'>
                     {visibleCount < data.proj.length && (
-                        <button
-                            onClick={handleShowMore}
-                            className='border-2 border-[#7a50eb] w-[200px] rounded-md font-bold py-3 text-[#7a50eb] hover:bg-[#7a50eb] hover:text-white ease-in-out duration-500'
-                        >
-                            Show More
-                        </button>
+                        <button onClick={handleShowMore} className='border-2 border-[#7a50eb] w-[200px] rounded-md font-bold py-3 text-[#7a50eb] hover:bg-[#7a50eb] hover:text-white ease-in-out duration-500'>Show More</button>
                     )}
                     {visibleCount > 3 && (
-                        <button
-                            onClick={handleShowLess}
-                            className='border-2 border-[#7a50eb] w-[200px] rounded-md font-bold py-3 text-[#7a50eb] hover:bg-[#7a50eb] hover:text-white ease-in-out duration-500 ml-4'
-                        >
-                            Show Less
-                        </button>
+                        <button onClick={handleShowLess} className='border-2 border-[#7a50eb] w-[200px] rounded-md font-bold py-3 text-[#7a50eb] hover:bg-[#7a50eb] hover:text-white ease-in-out duration-500 ml-4'>Show Less</button>
                     )}
                 </div>
             </div>
