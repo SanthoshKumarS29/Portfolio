@@ -36,7 +36,7 @@ const About = () => {
                         <p className='text-[#7a50eb] font-bold text-lg md:text-xl'>About Me</p>
                         <h1 className='md:text-4xl sm:text-3xl text-2xl font-bold py-2'>Lets Introduce Myself...</h1>
                         <p className='md:text-base'>Hi, I'm Santhosh, a passionate developer skilled in ReactJS, Django, Python, and Tailwind CSS. I enjoy creating elegant solutions for complex problems, from intuitive user interfaces to robust backend systems. Always eager to learn and grow, I thrive in collaborative environments and continuously seek new challenges.</p>
-                        <button className='border-2 border-[#7a50eb] w-[200px] rounded-md font-bold my-6 md:mx-0 py-3 text-[#7a50eb] hover:bg-[#7a50eb] hover:text-black ease-in-out duration-500'><a href={csv}  download="Santhosh-Kumar-CV.pdf">Download CV</a></button>
+                        <button className='border-2 border-[#7a50eb] w-[200px] rounded-md font-bold my-6 md:mx-0 py-3 text-[#7a50eb] hover:bg-[#7a50eb] hover:text-black ease-in-out duration-500'><a href={csv}  download="Santhosh Resume.pdf">Download CV</a></button>
                     </motion.div>
                 </div>
             </div>
