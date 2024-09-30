@@ -5,7 +5,7 @@ import {motion} from 'framer-motion'
 const Home = () => {
     return (
         <div id='hero'> 
-            <div className='max-w-[1240px] mx-auto py-16 px-4 '>
+            <div className='max-w-[1240px] mx-auto lg:h-screen place-content-center py-16 px-4 '>
                 <div className='grid md:grid-cols-2 items-center justify-center'>
                     {/* Text Content With Animation */}
                     <motion.div initial={{opacity:0, y:40}}
