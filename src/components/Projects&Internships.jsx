@@ -21,7 +21,7 @@ const Work = () => {
                 <div className='flex flex-col'>
                     <h1 className='font-bold text-2xl mb-2 text-[#7a50eb]'>Projects</h1>
                 </div>
-                <div className='grid grid-cols-1 md:grid-cols-3 px-2 md:px-0 mt-16 gap-5'>
+                <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 px-2 md:px-0 mt-16 gap-5'>
                     {visibleProjects.map((project) => (
                         <div key={project.id} className='max-w-md flex justify-center border-2 border-[#7a50eb] rounded-xl'>
                             <div className='py-7 px-3 md:px-6'>
@@ -29,8 +29,10 @@ const Work = () => {
                                     <p className='border-2 border-[#7a50eb] p-2 text-sm rounded-xl'></p>
                                     <p className='border-2 border-[#7a50eb] p-2 text-sm rounded-xl'></p>
                                 </div>
-                                    <img className='h-[200px] object-cover border-2 border-black rounded-md' src={project.img} />
+                                <div>
+                                    <img className='h-[200px] object-cover rounded-md ' src={project.img} />
                                     <h1 className='font-bold pt-6 text-base md:text-xl'>{project.title}</h1>
+                                </div>
                                 <div className='flex flex-col justify-between'>
                                     <div className='pt-4'>
                                         <p className='uppercase font-mono text-[12px] text-[#7a50eb]'>{project.des}</p>
@@ -43,12 +45,12 @@ const Work = () => {
                         </div>
                     ))}
                 </div>
-                <div className='flex justify-start mt-10'>
+                <div className='flex justify-start gap-2 mt-10'>
                     {visibleCount < data.proj.length && (
                         <button onClick={handleShowMore} className='border-2 border-[#7a50eb] w-[200px] rounded-md font-bold py-3 text-[#7a50eb] hover:bg-[#7a50eb] hover:text-white ease-in-out duration-500'>Show More</button>
                     )}
                     {visibleCount > 3 && (
-                        <button onClick={handleShowLess} className='border-2 border-[#7a50eb] w-[200px] rounded-md font-bold py-3 text-[#7a50eb] hover:bg-[#7a50eb] hover:text-white ease-in-out duration-500 ml-4'>Show Less</button>
+                        <button onClick={handleShowLess} className='border-2 border-[#7a50eb] w-[200px] rounded-md font-bold py-3 text-[#7a50eb] hover:bg-[#7a50eb] hover:text-white ease-in-out duration-500'>Show Less</button>
                     )}
                 </div>
             </div>

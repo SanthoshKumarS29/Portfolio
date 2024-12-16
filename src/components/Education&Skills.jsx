@@ -61,23 +61,24 @@ const Details = () => {
                         <h1 className='text-2xl font-bold mb-4 text-[#7a50eb]'>Skills</h1>
                         <ul className='grid grid-cols-1 md:grid-cols-2 gap-4'>
                             <li className='flex justify-between items-center py-2 border-b border-[#7a50eb]'>
-                                <span className='text-white font-medium '>Tailwind CSS</span>
+                                <span className='text-white font-normal'>Tailwind CSS</span>
                                 <span className='bg-[#7a50eb] text-white px-2 py-3 rounded-full'>92%</span>
                             </li>
                             <li className='flex justify-between items-center py-2 border-b border-[#7a50eb]'>
-                                <span className='text-white font-medium'>JavaScript</span>
+                                <span className='text-white font-normal'>ReactJs</span>
                                 <span className='bg-[#7a50eb] text-white px-2 py-3 rounded-full'>88%</span>
                             </li>
                             <li className='flex justify-between items-center py-2 border-b border-[#7a50eb]'>
-                                <span className='text-white font-medium'>React</span>
+                                <span className='text-white font-medium'>NodeJs</span>
                                 <span className='bg-[#7a50eb] text-white px-2 py-3 rounded-full'>78%</span>
                             </li>
                             <li className='flex justify-between items-center py-2 border-b border-[#7a50eb]'>
-                                <span className='text-white font-medium'>Python</span>
+                                <span className='text-white font-medium'>Python(Django)</span>
                                 <span className='bg-[#7a50eb] text-white px-2 py-3 rounded-full'>80%</span>
                             </li>
+                            
                             <li className='flex justify-between items-center py-2 border-b border-[#7a50eb]'>
-                                <span className='text-white font-medium'>Django</span>
+                                <span className='text-white font-medium'>MongoDb</span>
                                 <span className='bg-[#7a50eb] text-white px-2 py-3 rounded-full'>75%</span>
                             </li>
                         </ul>

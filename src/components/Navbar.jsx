@@ -21,7 +21,7 @@ const Navbar = () => {
                 </a>
             </div>
         </div>
-        <div className='fixed left-4 bottom-5 w-[90%] h-[10%] border-2 border-[#7a50eb] rounded-3xl bg-[#000300] ease-in-out duration-300 z-10 block md:hidden'>
+        {/* <div className='fixed left-4 bottom-5 w-[90%] h-[10%] border-2 border-[#7a50eb] rounded-3xl bg-[#000300] ease-in-out duration-300 z-10 block md:hidden'>
             <ul className='uppercase p-4 flex justify-around items-center h-full'>
                 <li className='flex flex-col items-center p-2 font-medium cursor-pointer text-white rounded-full hover:bg-[#7a50eb] duration-300'>
                     <a href="#hero" className='flex flex-col items-center'>
@@ -49,7 +49,7 @@ const Navbar = () => {
                     </a>
                 </li>
             </ul>
-        </div>
+        </div> */}
     </div>
   )
 }
