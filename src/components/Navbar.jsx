@@ -1,6 +1,5 @@
 import React from 'react'
 import { FaGithub } from 'react-icons/fa';
-import { GiCastle, GiHumanTarget,GiPaperPlane,GiSwordSpade, GiAbstract021 } from "react-icons/gi";
 
 const Navbar = () => {
 
