@@ -1,32 +1,46 @@
 import React, { useEffect, useRef } from 'react';
-import { FaSchool, FaUniversity } from 'react-icons/fa';
+import { FaPython , FaBootstrap ,FaReact  } from 'react-icons/fa';
+import { SiTailwindcss,SiJavascript  } from "react-icons/si";
+import Slider from 'react-slick'
+import 'slick-carousel/slick/slick.css';
+import 'slick-carousel/slick/slick-theme.css';
 
 
 const Details = () => {
 
-    const scrollRef = useRef(null);
+    const settings = {
+        dots: false,
+        infinite: true,
+        slidesToShow: 4,
+        slidesToScroll: 1,
+        autoplay: true,
+        cssEase: "linear",
+      };
+      const logos = [FaReact , FaBootstrap , SiTailwindcss, SiJavascript,FaPython ];
 
-    useEffect(() => {
-        const scrollContainer = scrollRef.current;
-        let scrollAmount = 0;
-        const scrollInterval = setInterval(() => {
-            if (scrollContainer.scrollLeft + scrollContainer.offsetWidth >= scrollContainer.scrollWidth) {
-                scrollAmount = 0;
-            } else {
-                scrollAmount += 260; // Adjust this value based on the width of your cards
-            }
-            scrollContainer.scrollTo({
-                left: scrollAmount,
-                behavior: 'smooth'
-            });
-        }, 3000); // 3 seconds interval
-        return () => clearInterval(scrollInterval);
-    }, []);
+    // const scrollRef = useRef(null);
+
+    // useEffect(() => {
+    //     const scrollContainer = scrollRef.current;
+    //     let scrollAmount = 0;
+    //     const scrollInterval = setInterval(() => {
+    //         if (scrollContainer.scrollLeft + scrollContainer.offsetWidth >= scrollContainer.scrollWidth) {
+    //             scrollAmount = 0;
+    //         } else {
+    //             scrollAmount += 260; // Adjust this value based on the width of your cards
+    //         }
+    //         scrollContainer.scrollTo({
+    //             left: scrollAmount,
+    //             behavior: 'smooth'
+    //         });
+    //     }, 3000); // 3 seconds interval
+    //     return () => clearInterval(scrollInterval);
+    // }, []);
 
 
     return (
         <div className='text-white max-w-[1240px] mx-auto' id="Education">
-            <div className='md:mt-[96px] '>
+            {/* <div className='md:mt-[96px] '>
                 <div className='flex flex-col md:flex md:flex-row gap-4 p-2 '>
                     <div className="p-2 bg-transparent rounded-lg shadow-md w-full">
                         <h1 className="text-2xl font-bold mb-4 text-[#7a50eb]">Education</h1>
@@ -82,6 +96,24 @@ const Details = () => {
                                 <span className='bg-[#7a50eb] text-white px-2 py-3 rounded-full'>75%</span>
                             </li>
                         </ul>
+                    </div>
+                </div>
+            </div> */}
+            <div className='my-10 lg:my-40' id='service'>
+                <div className='flex flex-col lg:flex-row gap-10 lg:gap-20 items-center'>
+                    <div className='w-full lg:w-9/12 px-6 lg:px-16 space-y-3 lg:space-y-6'>
+                        <h1 className='text-2xl lg:text-5xl font-semibold'>Our Clinets</h1>
+                        <p className='text-lg text-gray-400'>Serveral Selected clients, who already believe in our service.</p>
+                    </div>
+                    {/* i use to scroll for react-slicks library */}
+                    <div className="w-full lg:w-8/12">
+                    <Slider {...settings} className='flex overflow-x-hidden items-center'>
+                        {logos.map((logo, index) => (
+                        <div key={index} className="px-4">
+                            <logo className="text-7xl text-white" />
+                        </div>
+                    ))}
+                    </Slider>
                     </div>
                 </div>
             </div>

@@ -16,7 +16,7 @@ const Home = () => {
                 </div> */}
                 <div className='text-white text-center space-y-7'>
                     <h1 className='text-4xl md:text-9xl uppercase text-[#7a50eb]'>S<span className='text-white text-xl md:text-8xl'>anthosh</span> <br className='hidden md:block'/> K<span className='text-white text-xl md:text-8xl'>umar</span></h1>
-                    <p className='md:text-end'><a href="#Project">— <span className='hover:text-[#7a50eb] cursor-pointer duration-300 ease-in-out'>Frontend Developer</span> | <span className='hover:text-[#7a50eb] cursor-pointer duration-300 ease-in-out'>React & Tailwind Enthusiast</span></a></p>
+                    <p className='md:text-end pr-5'><a href="#Project">— <span className='hover:text-[#7a50eb] cursor-pointer duration-300 ease-in-out'>Frontend Developer</span> | <span className='hover:text-[#7a50eb] cursor-pointer duration-300 ease-in-out'>React & Tailwind Enthusiast</span></a></p>
                     <h6 className='text-xl lg:text-3xl'>Building cool, fast, and responsive UIs—because the web deserves better!</h6>
                     <button className='py-4 border-2 border-[#7a50eb] w-[200px] rounded-md font-bold text-white hover:bg-[#7a50eb] ease-in-out duration-500'><a href="#Contact">Get in Touch</a></button>
                 </div>
