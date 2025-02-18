@@ -11,7 +11,7 @@ const Details = () => {
     const settings = {
         dots: false,
         infinite: true,
-        slidesToShow: 4,
+        slidesToShow: 5,
         slidesToScroll: 1,
         autoplay: true,
         cssEase: "linear",
@@ -101,16 +101,12 @@ const Details = () => {
             </div> */}
             <div className='my-10 lg:my-40' id='service'>
                 <div className='flex flex-col lg:flex-row gap-10 lg:gap-20 items-center'>
-                    <div className='w-full lg:w-9/12 px-6 lg:px-16 space-y-3 lg:space-y-6'>
-                        <h1 className='text-2xl lg:text-5xl font-semibold'>Our Clinets</h1>
-                        <p className='text-lg text-gray-400'>Serveral Selected clients, who already believe in our service.</p>
-                    </div>
                     {/* i use to scroll for react-slicks library */}
-                    <div className="w-full lg:w-8/12">
+                    <div className="w-full">
                     <Slider {...settings} className='flex overflow-x-hidden items-center'>
-                        {logos.map((logo, index) => (
+                        {logos.map((Logo, index) => (
                         <div key={index} className="px-4">
-                            <logo className="text-7xl text-white" />
+                            <Logo className="text-7xl text-white" />
                         </div>
                     ))}
                     </Slider>
