@@ -1,11 +1,10 @@
-import React, { useState, useEffect } from 'react';
+import './App.css'
 import Navbar from './components/Navbar.jsx'
 import Home from './components/Home.jsx'
 import About from './components/About.jsx'
-import './App.css'
-import Details from './components/Education&Skills.jsx'
-import Work from './components/Projects&Internships.jsx'
+import Work from './components/Projects.jsx'
 import Contact from './components/Contact.jsx'
+import TechStack from './components/TechStack.jsx';
 
 function App() {
   
@@ -15,7 +14,7 @@ function App() {
       <Navbar />
       <Home />
       <About />
-      <Details />
+      <TechStack />
       <Work />
       <Contact />
     </div>

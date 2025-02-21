@@ -17,7 +17,9 @@ const Contact = () => {
             Get In Touch
           </h3>
           <div className="flex justify-center py-8 font-semibold cursor-pointer">
-            <p className="flex gap-3 border p-2 rounded-md scale-100 hover:scale-125 hover:border-[#7a50eb] duration-300 ease-in-out">santhoshvk090@gmail.com <span><IoMailUnreadOutline className="text-2xl hover:text-[#7a50eb] duration-300 ease-in"/></span></p>
+            <a href="mailto:santhoshvk090@gmail.com">
+              <p className="flex gap-3 border p-2 rounded-md scale-100 hover:scale-125 hover:border-[#7a50eb] duration-300 ease-in-out">santhoshvk090@gmail.com <span><IoMailUnreadOutline className="text-2xl hover:text-[#7a50eb] duration-300 ease-in"/></span></p>
+            </a>
           </div>
           <div className="flex space-x-4 justify-center">
             <a href={urls.Linkedin} target="_blank" rel="noopener noreferrer">
