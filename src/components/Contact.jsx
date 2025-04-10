@@ -11,7 +11,7 @@ const Contact = () => {
 
   return (
     <div id="Contact">
-      <div className="max-w-[1240px] mx-auto py-16 px-4 text-white">
+      <div className="py-16 px-4 text-white">
         <div className="shadow-lg p-6 rounded-lg mb-10">
           <h3 className="text-2xl text-center font-semibold text-[#7a50eb]">
             Get In Touch

@@ -3,8 +3,8 @@ import hero from '../assets/hero.jpeg';
 
 const Home = () => {
     return (
-        <div id='hero' className=''>
-            <div className='max-w-[1200px] mx-auto h-screen place-content-center py-10 lg:py-16 px-lg-12'>
+        <div id='hero'>
+            <div className='h-screen place-content-center py-10 lg:py-16 px-lg-12'>
                 {/* <div className='grid md:grid-cols-2 items-center justify-center'>
                     <div className='flex flex-col gap-4 justify-center text-white'>
                         <p className='text-[#7a50eb] font-bold'>Hi, I am</p>

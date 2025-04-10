@@ -43,7 +43,7 @@ const TechStack = () => {
           const [hoveredIndex, setHoveredIndex] = useState(null);
 
   return (
-    <div className='text-white max-w-[1240px] mx-auto' id="Education">
+    <div className='text-white' id="Education">
         <div className='m-10 lg:my-20' id='service'>
             <div className='flex flex-col gap-7 items-center my-6 p-2'>
                 <h2 className='text-4xl text-[#7a50eb]'>TechStacks</h2>

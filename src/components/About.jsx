@@ -6,7 +6,7 @@ import about from '/usuals/About.webp';
 const About = () => {
     return (
         <div id="About">
-            <div className='max-w-[1240px] mx-auto py-7 lg:py-16 px-4 text-white'>
+            <div className='py-7 lg:py-16 px-4 text-white'>
                 <div className='grid md:grid-cols-2 gap-10 place-content-center place-items-center'>
                     <div className='space-y-10'>
                         <p className='text-4xl text-[#7a50eb]'>About Me</p>
