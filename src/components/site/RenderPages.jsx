@@ -5,7 +5,8 @@ import About from '../About'
 import TechStack from '../TechStack'
 import Projects from '../Projects'
 import Contact from '../Contact'
-import { GoHubot } from "react-icons/go";
+import { RiRobot3Fill } from "react-icons/ri";
+// chatcomponent work pannanum
 
 const RenderPages = () => {
   return (
@@ -18,11 +19,6 @@ const RenderPages = () => {
                 <TechStack />
                 <Projects />
                 <Contact />
-                <div className='fixed right-24 bottom-10'>
-                    <div className='border border-white'>
-                        <span className='text-white'><GoHubot size={30}/></span>
-                    </div>
-                </div>
             </div>
         </div>
     </div>

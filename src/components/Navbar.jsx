@@ -1,8 +1,15 @@
-import React from 'react'
-import { FaGithub } from 'react-icons/fa';
-import { IoMailUnreadOutline } from "react-icons/io5";
+import React, { useState } from 'react'
+import { RiRobot3Fill } from "react-icons/ri";
+import { IoMdClose } from "react-icons/io";
+import ChatBot from '../components/chatbot/shareContext/Bot'
 
 const Navbar = () => {
+
+    const [open,setOpen] = useState(false)
+
+    const toggleChatbot = () => {
+        setOpen(prev => !prev);
+    };
 
   return (
     <div>
@@ -17,12 +24,23 @@ const Navbar = () => {
                         <li className='p-4 font-medium cursor-pointer hover:text-[#7a50eb] duration-300'><a href="#Project">Projects</a></li>
                     </ul>
                     <ol className='flex justify-end'>
-                        <li className='hidden md:block px-6 py-2 font-medium border border-[#7a50eb] rounded-3xl cursor-pointer hover:bg-[#7a50eb] duration-300'><a href="#Contact" >Contact</a></li>
-                        <li className='block md:hidden px-4 py-4 font-medium border border-[#7a50eb] rounded-full cursor-pointer hover:bg-[#7a50eb] duration-300'><a href="#Contact"><IoMailUnreadOutline /></a></li>
+                        <li className='hidden md:block px-6 py-2 font-medium border border-[#7a50eb] rounded-3xl cursor-pointer hover:bg-[#7a50eb] duration-300' onClick={toggleChatbot}>
+                        {open ? <p>Close</p> : <p>ChatBot</p>}
+                        </li>
+                        <li className='block md:hidden px-4 py-4 font-medium border border-[#7a50eb] rounded-full cursor-pointer hover:bg-[#7a50eb] duration-300' onClick={toggleChatbot}>
+                            {open ? <IoMdClose size={20} /> : <RiRobot3Fill size={20} />}
+                        </li>
                     </ol>
                 </div>
             </div>
         </div>
+        {open && (
+                <div className='fixed z-10 w-full h-full flex justify-center items-center'>
+                    <div className='w-100'>
+                        <ChatBot /> 
+                    </div>
+                </div>
+            )}
     </div>
   )
 }

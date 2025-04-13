@@ -14,7 +14,7 @@ const About = () => {
                         <div className='flex gap-10'>
                             <div className='space-y-4'>
                                 <h3 className='border-b-4 border-[#7a50eb] py-3 text-xl'>Education</h3>
-                                <p>Grace Matric Hr Sec School 2018-2020 with<span className='text-xl font-bold text-[#7a50eb]'> 65% </span>of mark</p>
+                                <p>Grace Matric Hr Sec School 2018-2020 with<span className='text-xl font-bold text-[#7a50eb]'> 57% </span>of mark</p>
                                 <p>KLN Arts and Science College 2020-2023 with<span className='text-xl font-bold text-[#7a50eb]'> 71% </span>of mark</p>
                             </div>
                             <div className='space-y-4'>

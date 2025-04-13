@@ -18,7 +18,7 @@ export const chatReducer = (state, action) => {
                 }
             }
             if(!botResponse){
-                botResponse = "can't Understand Your message"
+                botResponse = "Sorry I can't understand Your Question, So can you take a screenshot and send it to the santhosh he will update it"
             }
             return {
                 ...state,
