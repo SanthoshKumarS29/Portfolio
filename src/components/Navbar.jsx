@@ -36,8 +36,9 @@ const Navbar = () => {
         </div>
         {open && (
                 <div className='fixed z-10 w-full h-full flex justify-center items-center'>
-                    <div className='w-100'>
-                        <ChatBot /> 
+                    <div className='w-100 bg-[#7a50eb] text-dark p-44 rounded-md'>
+                        {/* <ChatBot />  */}
+                        <h1 className='text-2xl'>Bot has Updating!.....</h1>
                     </div>
                 </div>
             )}

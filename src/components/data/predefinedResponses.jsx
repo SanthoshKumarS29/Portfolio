@@ -1,6 +1,6 @@
 const predefinedResponses = [
     {
-      patterns: [
+      keywords: [
         "hi",
         "how are you",
         "how are you doing",
@@ -9,7 +9,7 @@ const predefinedResponses = [
       response: "I'm doing great! What details are needed from Santhosh?"
     },
     {
-      patterns: [
+      keywords: [
         "tell about santhosh",
         "can you tell santhosh detail",
         "who is santhosh",
@@ -20,7 +20,7 @@ const predefinedResponses = [
       response: "He is a web developer passionate about building interactive web apps using React.js."
     },
     {
-      patterns: [
+      keywords: [
         "santhosh pathi konjam soley",
         "santhosh enna pannran",
         "sk pathi konjam soley",
@@ -29,7 +29,7 @@ const predefinedResponses = [
       response: "Avaru web developer ra irukaru apro avaruku reactjs use panni website la panna theriyum"
     },
     {
-      patterns: [
+      keywords: [
         "what are santhosh's professional skills?",
         "what does santhosh specialize in?",
         "what skills does santhosh have in web development?",
@@ -47,14 +47,14 @@ const predefinedResponses = [
       response: "Santhosh has expertise in React.js, Tailwind CSS, Bootstrap, JavaScript, and has basic knowledge of MERN Stack development."
     },
     {
-      patterns: [
+      keywords: [
         "sk ta enna skills la irukku",
         "santhosh ta enna skills la irukku"
       ],
       response: "Avaru ta frontend da reactjsum tailwindcssum theriyum apro backend da django theriyum vera MERN stack la epdi work pannanum theriyum avalotha"
     },
     {
-      patterns: [
+      keywords: [
         "what are santhosh's school marks",
         "tell me about santhosh's school percentage",
         "how much did santhosh score in school",
@@ -69,7 +69,7 @@ const predefinedResponses = [
       response: "Santhosh scored 57% in SSLC, 65% in HSC, and secured a CGPA of 7.92 in college."
     },
     {
-      patterns: [
+      keywords: [
         "santhosh oda school marks enna",
         "santhosh oda schl marks enna",
         "santhosh oda college marks enna",
@@ -82,7 +82,7 @@ const predefinedResponses = [
       response: "Avaru school la 51% apro college la 72%"
     },
     {
-      patterns: [
+      keywords: [
         "what projects has santhosh worked on?",
         "tell me about santhosh's projects",
         "can you list santhosh's completed projects?",
@@ -94,7 +94,7 @@ const predefinedResponses = [
       response: "Santhosh has worked on several projects including a personal portfolio website, chatbot system, and more. You can explore them on his portfolio!"
     },
     {
-      patterns: [
+      keywords: [
         "santhosh oda projects enna",
         "sk oda projects enna",
         "santhosh built enna projects",
@@ -104,7 +104,7 @@ const predefinedResponses = [
       response: "Avaru neraya prjocts panirukaru atha pakanum na enna close pannitu avaru website la project section na poi parunga"
     },
     {
-      patterns: [
+      keywords: [
         "what is santhosh doing now?",
         "what is santhosh currently working on?",
         "what is santhosh's current role?",
@@ -116,7 +116,7 @@ const predefinedResponses = [
       response: "Santhosh is currently working at Troniex Technologies in the role of frontend developer."
     },
     {
-      patterns: [
+      keywords: [
         "santhosh ipo enna pannrar",
         "sk ipo enna pannrar",
         "santhosh current work enna",
@@ -128,7 +128,7 @@ const predefinedResponses = [
       response: "Avaru ipo troniex technologies la frontend developer ra work panraru"
     },
     {
-      patterns: [
+      keywords: [
         "what is santhosh's experience?",
         "how much experience does santhosh have?",
         "tell me about santhosh's work experience",
@@ -140,7 +140,7 @@ const predefinedResponses = [
       response: "Santhosh has a total of seven months of experience and has completed internships at two companies. The first is WizIona, where he learned React.js and Django frameworks during a four-month internship. The second is Servwing, where he worked as a software engineer, focusing on full-stack development for three months."
     },
     {
-      patterns: [
+      keywords: [
         "santhosh experience level enna?",
         "santhosh oda experience enna",
         "sk oda experience enna",
@@ -151,7 +151,7 @@ const predefinedResponses = [
       response: "Avaru 2ndu company la intership pannirukaru, total 7months experience irukku, onu vanthu wiziona la anga 4months la reactjs and django skill la learn pannaru apro servwing la 3months software engineer ra intern panriukaru"
     },
     {
-      patterns: [
+      keywords: [
         "what are santhosh's hobbies?",
         "tell me about santhosh's interests?",
         "what does santhosh like doing in free time?",
@@ -159,26 +159,26 @@ const predefinedResponses = [
       response: "Santhosh enjoys building web projects, learning new technologies, and exploring creative UI designs during his free time and editing the vidoes."
     },
     {
-      patterns: [
+      keywords: [
         "santhosh oda hobby enna",
         "sk oda hobby enna",
       ],
       response: "avaraoda hobby enna na ethachu site ready pannuvaru illa video editing la intrest irukku so athuvum pannuvaru"
     },   
     {
-      patterns: [
+      keywords: [
         "ok"
       ],
       response: "If you want any other details about Santhosh, please feel free to ask questions."
     },
     {
-      patterns: [
+      keywords: [
         "no"
       ],
       response: "ok Bye"
     },
     {
-    patterns: [
+    keywords: [
         "mm",
         "Hmmm",
         "hm"
@@ -186,7 +186,7 @@ const predefinedResponses = [
       response: "vera ethum detail venum ma avara pathi, vennum na kelunga solrey"
     },
     {
-      patterns: [
+      keywords: [
         "how can i contact Santhosh?",
         "what is santhosh's contact info?",
         "give me santhosh's email address",
