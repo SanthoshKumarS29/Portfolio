@@ -6,7 +6,7 @@ const chatContext = createContext();
 
 export const ChatProvider = ({ children }) => {
     const initialState = {
-        messages: [{ sender: "bot", text:"Hi, I'm ReactoBot, here to tell you everything about Santhosh"}]
+        messages: [{ sender: "bot", text:"Hi, I'm Reactobot. I provide some basic details about Santhosh"}]
     }
     
     const [state,dispatch]=useReducer(chatReducer, initialState);

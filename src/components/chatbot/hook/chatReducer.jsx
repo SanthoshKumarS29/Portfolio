@@ -26,7 +26,7 @@ export const chatReducer = (state, action) => {
 
       if (!botResponse) {
         botResponse =
-          "Sorry, I can't understand your question. Could you take a screenshot and send it to Santhosh? He'll update me!";
+          "What type of questions would you ask about Santhosh? I don't know the details. Can you ask him directly if I give you the phno:9751093403, or could you correct any spelling mistakes and retry?";
       }
 
       return {

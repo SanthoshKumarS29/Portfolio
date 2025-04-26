@@ -45,7 +45,7 @@ const Design = () => {
 
   return (
     <div>
-      <div className="w-[350px] md:w-[400px] mx-auto h-[450px] border border-[#7a50eb] rounded-2xl shadow-2xl bg-[#0f0f0f] text-white flex flex-col overflow-hidden">
+      <div className="w-[300px] md:w-[400px] mx-auto h-[450px] border border-[#7a50eb] rounded-2xl shadow-2xl bg-[#0f0f0f] text-white flex flex-col overflow-hidden">
         {/* Header */}
         <div className="bg-[#7a50eb] px-4 py-3 text-lg font-bold text-center shadow-md">
           ReactoBot 
