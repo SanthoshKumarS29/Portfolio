@@ -8,7 +8,7 @@ const predefinedResponses = [
     response: "Santhosh has expertise in React.js, Tailwind CSS, Bootstrap, JavaScript, and has basic knowledge of MERN Stack development."
   },
   {
-    keywords: ["mark", "marks", "cgpa", "percentage", "grade", "college", "school", "study", "education", "studied"],
+    keywords: ["mark", "marks", "cgpa", "percentage", "grade", "college", "school", "study", "education", "studied","higesh","Qualification"],
     response: "Santhosh scored 57% in SSLC, 65.1% in HSC, and secured a CGPA of 7.92 in college."
   },
   {
@@ -20,7 +20,7 @@ const predefinedResponses = [
     response: "You can reach Santhosh via the contact section on his portfolio or directly email him at santhoshvk090@gmail.com."
   },
   {
-    keywords: ["currently", "working", "job", "doing", "role", "position", "employed", "work"],
+    keywords: ["currently", "working", "job", "doing", "role", "position", "employed", "work", "right now"],
     response: "Santhosh is currently working at Troniex Technologies in the role of frontend developer."
   },
   {

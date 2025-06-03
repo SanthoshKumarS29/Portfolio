@@ -11,8 +11,8 @@ const Contact = () => {
 
   return (
     <div id="Contact">
-      <div className="py-16 px-4 text-white">
-        <div className="shadow-lg p-6 rounded-lg mb-10">
+      <div className="py-16 px-4">
+        <div className="p-6 rounded-lg mb-10">
           <h3 className="text-2xl text-center font-semibold text-[#7a50eb]">
             Get In Touch
           </h3>
@@ -23,13 +23,13 @@ const Contact = () => {
           </div>
           <div className="flex space-x-4 justify-center">
             <a href={urls.Linkedin} target="_blank" rel="noopener noreferrer">
-              <FaLinkedin className="text-white text-3xl hover:text-[#7a50eb] duration-300 ease-in" />
+              <FaLinkedin className="text-3xl hover:text-[#7a50eb] duration-300 ease-in" />
             </a>
             <a href={urls.Github} target="_blank" rel="noopener noreferrer">
-              <FaGithub className="text-white text-3xl hover:text-[#7a50eb] duration-300 ease-in" />
+              <FaGithub className="text-3xl hover:text-[#7a50eb] duration-300 ease-in" />
             </a>
             <a href={urls.Whatsapp} target="_blank" rel="noopener noreferrer">
-              <FaWhatsapp className="text-white text-3xl hover:text-[#7a50eb] duration-300 ease-in" />
+              <FaWhatsapp className="text-3xl hover:text-[#7a50eb] duration-300 ease-in" />
             </a>
           </div>
         </div>

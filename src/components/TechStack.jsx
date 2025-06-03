@@ -43,7 +43,7 @@ const TechStack = () => {
           const [hoveredIndex, setHoveredIndex] = useState(null);
 
   return (
-    <div className='text-white' id="Education">
+    <div id="Education">
         <div className='m-10 lg:my-20' id='service'>
             <div className='flex flex-col gap-7 items-center my-6 p-2'>
                 <h2 className='text-4xl text-[#7a50eb]'>TechStacks</h2>
@@ -57,7 +57,7 @@ const TechStack = () => {
                         <div key={index} className="px-4" onMouseEnter={() => setHoveredIndex(index)} onMouseLeave={() => setHoveredIndex(null)}>
                             <div className='flex justify-center items-center gap-x-5'>
                                 <Icon className={`text-7xl transition-colors duration-300 ${ hoveredIndex === index ? logo.color : "text-[#7a50eb]"}`}/>
-                                <span className="mt-2 text-white text-xl">{logo.name}</span>
+                                <span className="mt-2 text-xl">{logo.name}</span>
                             </div>
                         </div>
                     );

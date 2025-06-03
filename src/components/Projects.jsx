@@ -11,7 +11,7 @@ const Work = () => {
 
     return (
         <div id='Project'>
-            <div className='py-10 px-4 text-white'>
+            <div className='py-10 px-4'>
                 <div className='flex flex-col gap-7 items-center my-6 p-2'>
                     <h2 className='text-4xl text-[#7a50eb]'>Projects</h2>
                     <p className='text-xl text-center'>A personal portfolio showcasing projects, skills, and experience with an interactive and modern UI. Built using Reactjs and Tailwind CSS 

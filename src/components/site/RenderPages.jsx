@@ -11,7 +11,7 @@ import { RiRobot3Fill } from "react-icons/ri";
 const RenderPages = () => {
   return (
     <div>
-        <div className=''>
+        <div className="bg-white text-black dark:bg-black dark:text-white">
             <Navbar />
             <div className='max-w-[1240px] mx-auto'>
                 <Home />
