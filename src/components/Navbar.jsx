@@ -18,8 +18,8 @@ const Navbar = () => {
   return (
     <div>
         <div className='fixed w-[100%] z-50 top-0'>
-            <div className='max-w-[1240px] mx-auto bg-white text-black dark:bg-black dark:text-white'>
-                <div className='flex justify-between items-center h-20 px-4 '>
+            <div className='bg-white text-black dark:bg-black dark:text-white'>
+                <div className='flex justify-between md:justify-evenly items-center h-20 px-4 '>
                     <h1 className='text-3xl font-bold text-[#7a50eb] font-customFont'>Santhosh.</h1>
                     <ul className='hidden md:flex'>
                         <li className='p-4 font-medium cursor-pointer hover:text-[#7a50eb] duration-300'><a href="#hero">Home</a></li>

@@ -11,6 +11,15 @@ export default {
         customFont: ['"Dancing Script"', "cursive"],
         // Add more custom font families as needed
       },
+      keyframes: {
+        snowflake: {
+          '0%': { transform: 'translateY(0)', opacity: '1' },
+          '100%': { transform: 'translateY(100vh)', opacity: '0' },
+        },
+      },
+      animation: {
+        snowflake: 'snowflake linear infinite',
+      },
     },
   },
   plugins: [],
