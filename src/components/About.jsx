@@ -10,7 +10,7 @@ const About = () => {
                 <div className='grid md:grid-cols-2 gap-10 place-content-center place-items-center'>
                     <div className='space-y-10'>
                         <p className='text-4xl text-[#7a50eb]'>About Me</p>
-                        <h4 className='text-xl'>Hey, I'm Santhosh! A MERN Stack developer who loves turning ideas into smooth, functional web experiences with Tailwind CSS. <span className='hidden md:block'>Always exploring, always improving! Let's build something awesome together.</span></h4>
+                        <h4 className='text-xl'>Hey, I'm Sk! A MERN Stack developer who loves turning ideas into smooth, functional web experiences with Tailwind CSS. <span className='hidden md:block'>Always exploring, always improving! Let's build something awesome together.</span></h4>
                         <div className='flex gap-10'>
                             <div className='space-y-4'>
                                 <h3 className='border-b-4 border-[#7a50eb] py-3 text-xl'>Education</h3>
