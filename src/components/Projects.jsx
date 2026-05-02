@@ -65,7 +65,7 @@ const Work = () => {
                         <div className="relative group overflow-hidden rounded-lg cursor-pointer h-full">
                             <img src={officeTemplate} alt="Fresh Cart" className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"/>
                             <div className="absolute bottom-0 left-0 w-full bg-black bg-opacity-70 text-white p-4 transform translate-y-full group-hover:translate-y-0 transition-transform duration-500">
-                                <p className="text-lg font-semibold">Resume Builder</p>
+                                <p className="text-lg font-semibold">Office Site</p>
                                 <button className="mt-2 px-4 py-2 border-2 border-[#7a50eb] text-white font-medium rounded-md hover:bg-[#7a50eb] duration-200"><a href="https://office-template.onrender.com/" target="_blank" rel="noopener noreferrer">Check It</a></button>
                             </div>
                         </div>
