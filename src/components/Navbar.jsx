@@ -3,7 +3,8 @@ import { RiRobot3Fill } from "react-icons/ri";
 import { IoMdClose } from "react-icons/io";
 import ChatBot from '../components/chatbot/shareContext/Bot'
 import { ThemeContext } from './ldMode/ThemeProvider';
-import { FaSun,FaMoon  } from "react-icons/fa";
+import { FaMoon  } from "react-icons/fa";
+import { MdSunny } from "react-icons/md";
 
 const Navbar = () => {
 
@@ -36,9 +37,9 @@ const Navbar = () => {
                         </li>
                     </ol> */}
                     <div>
-                        <button className='px-4 py-4 font-medium border border-[#7a50eb] rounded-full cursor-pointer hover:bg-[#7a50eb] duration-300' onClick={() => setDarkMode(!darkMode)} aria-label='Toggle Theme'>
+                        <button className='w-[44px] h-[44px] flex justify-center items-center font-medium border border-[#7a50eb] rounded-full cursor-pointer hover:bg-[#7a50eb] hover:text-white duration-300' onClick={() => setDarkMode(!darkMode)} aria-label='Toggle Theme'>
                             {!darkMode ? (
-                                <FaSun />
+                                <MdSunny />
                             ):(
                                 <FaMoon />
                             )}

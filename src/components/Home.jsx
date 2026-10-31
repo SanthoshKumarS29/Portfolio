@@ -10,8 +10,8 @@ const Home = () => {
                     <p className='md:text-end pr-5'><a href="#Project">— <span className='hover:text-[#7a50eb] cursor-pointer duration-300 ease-in-out'>Frontend Developer</span> | <span className='hover:text-[#7a50eb] cursor-pointer duration-300 ease-in-out'>React & Tailwind Enthusiast</span></a></p>
                     <p className='text-xl lg:text-3xl'>Building cool, fast, and responsive UIs because the web deserves better!</p>
                     <div className='flex flex-wrap gap-4 justify-center'>
-                        <button className='py-4 border-2 border-[#7a50eb] w-[200px] rounded-md font-bold hover:bg-[#7a50eb] ease-in-out duration-500 hidden lg:block'><a href="#Contact">Get in Touch</a></button>
-                        <button className='py-4 border-2 border-[#7a50eb] w-[200px] rounded-md font-bold hover:bg-[#7a50eb] ease-in-out duration-500' type='button'><a href="./santhoshResume.pdf" download="Santhosh_Kumar_Resume.pdf" target='_blank'>Download Cv</a></button>
+                        <a href="#Contact" className='py-4 border-2 border-[#7a50eb] w-[200px] rounded-md font-bold hover:bg-[#7a50eb] hover:text-white ease-in-out duration-500 hidden lg:block'>Get in Touch</a>
+                        <a href="./santhoshResume.pdf" download="Santhosh_Kumar_Resume.pdf" target='_blank' className='py-4 border-2 border-[#7a50eb] w-[200px] rounded-md font-bold hover:bg-[#7a50eb] hover:text-white ease-in-out duration-500'>Download Cv</a>
                     </div>
                 </div>
             </div>

@@ -1,6 +1,7 @@
 import React,{useState} from 'react'
 import { FaPython , FaBootstrap ,FaReact  } from 'react-icons/fa';
 import { SiTailwindcss,SiJavascript  } from "react-icons/si";
+import { RiNextjsFill } from "react-icons/ri";
 import Slider from 'react-slick'
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
@@ -37,7 +38,7 @@ const TechStack = () => {
             { icon: FaBootstrap, name: "Bootstrap", color: "text-purple-500" },
             { icon: SiTailwindcss, name: "Tailwind CSS", color: "text-cyan-500" },
             { icon: SiJavascript, name: "JavaScript", color: "text-yellow-400" },
-            { icon: FaPython, name: "Python", color: "text-green-500" },
+            { icon: RiNextjsFill, name: "Nextjs", color: "text-black-500" },
           ];
     
           const [hoveredIndex, setHoveredIndex] = useState(null);
